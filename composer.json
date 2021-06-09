@@ -1,0 +1,18 @@
+{
+    "autoload": {
+        "psr-4": {
+            "AWT\\": "src/"
+        }
+    },
+    "name": "warrence/api-logging",
+    "description": "Laravel package for API logging.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Warrence",
+            "email": "warrence@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
