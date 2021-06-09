@@ -30,11 +30,16 @@ class DBLogger extends AbstractLogger implements ApiLoggerInterface{
      */
     public function saveLogs($request,$response)
     {
-        $data = $this->logData($request,$response);
-        
-        $this->logger->fill($data);
+        $guard = \Auth::getDefaultDriver();
 
-        $this->logger->save();
+        if(in_array($guard, config('apilog.log_guard'))){
+            $data = $this->logData($request,$response);
+        
+            $this->logger->fill($data);
+
+            $this->logger->save();
+        }
+        
     }
     /**
      * delete all logs
