@@ -1,9 +1,9 @@
 <?php
 
-namespace AWT;
+namespace Warrence;
 
 use Illuminate\Support\Facades\File;
-use AWT\Contracts\ApiLoggerInterface;
+use Warrence\Contracts\ApiLoggerInterface;
 
 class FileLogger extends AbstractLogger implements ApiLoggerInterface
 {

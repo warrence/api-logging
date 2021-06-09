@@ -1,6 +1,6 @@
 <?php
 
-namespace AWT\Contracts;
+namespace Warrence\Contracts;
 
 interface ApiLoggerInterface{
 

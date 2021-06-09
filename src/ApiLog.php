@@ -1,6 +1,6 @@
 <?php
 
-namespace AWT;
+namespace Warrence;
 
 use Illuminate\Database\Eloquent\Model;
 

@@ -1,8 +1,8 @@
 <?php
 
-namespace AWT\Http\Middleware;
+namespace Warrence\Http\Middleware;
 
-use AWT\Contracts\ApiLoggerInterface;
+use Warrence\Contracts\ApiLoggerInterface;
 use Closure;
 
 class ApiLogger

@@ -1,8 +1,8 @@
 <?php
 
-namespace AWT;
+namespace Warrence;
 
-use AWT\Contracts\ApiLoggerInterface;
+use Warrence\Contracts\ApiLoggerInterface;
 
 class DBLogger extends AbstractLogger implements ApiLoggerInterface{
 

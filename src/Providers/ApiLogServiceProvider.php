@@ -1,13 +1,13 @@
 <?php
 
-namespace AWT\Providers;
+namespace Warrence\Providers;
 
-use AWT\Console\Commands\ClearApiLogger;
-use AWT\Http\Exceptions\InvalidApiLogDriverException;
-use AWT\Http\Middleware\ApiLogger;
-use AWT\Contracts\ApiLoggerInterface;
-use AWT\DBLogger;
-use AWT\FileLogger;
+use Warrence\Console\Commands\ClearApiLogger;
+use Warrence\Http\Exceptions\InvalidApiLogDriverException;
+use Warrence\Http\Middleware\ApiLogger;
+use Warrence\Contracts\ApiLoggerInterface;
+use Warrence\DBLogger;
+use Warrence\FileLogger;
 use Exception;
 use Illuminate\Support\ServiceProvider;
 

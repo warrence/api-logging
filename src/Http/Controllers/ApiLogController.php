@@ -1,8 +1,8 @@
 <?php
 
-namespace AWT\Http\Controllers;
+namespace Warrence\Http\Controllers;
 
-use AWT\Contracts\ApiLoggerInterface;
+use Warrence\Contracts\ApiLoggerInterface;
 use Illuminate\Pagination\LengthAwarePaginator;
 use Illuminate\Pagination\Paginator;
 use Illuminate\Support\Collection;
