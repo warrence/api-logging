@@ -11,6 +11,7 @@ class DBLogger extends AbstractLogger implements ApiLoggerInterface{
      *
      * @var [type]
      */
+    
     protected $logger; 
 
     public function __construct(ApiLog $logger)
